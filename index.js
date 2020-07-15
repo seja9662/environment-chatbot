@@ -39,6 +39,7 @@ app.post('/webhook', (req, res) => {
 app.get('/webhook', (req, res) => {
 
     // Your verify token. Should be a random string.
+    let PAGE_ACCESS_TOKEN = "EAAlZAh6pXhJ0BADdRVINZARthUakaTUjrZCKBScj4XJeEQl2XMcJ0gt2F5nIhjUHZB6pPwCxlmvWYh3NflcqOK7ZAMZA2Jj1cjLYDqM1J7m6PosRpQGK6CBuvgl6APT5QaLS304OzxHHNOxcZBgwFsqeMXqbI2isVFDmrn3OknATQZDZD"
     let VERIFY_TOKEN = "a1d3dgtdvg32"
       
     // Parse the query params
